@@ -1,5 +1,5 @@
 // Módulo 5: Contratos de Custódia e Eventos
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract M5_Custody {
     event Deposited(address indexed user, uint256 amount);

@@ -1,5 +1,5 @@
 // Módulo 2: Modelo UTXO e Modelo de Conta
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract M2_UTXO_Account {
     struct UTXO {

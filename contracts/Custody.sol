@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+import "./AccountLedger.sol";
+
 /// @title Custody - Armazena e libera ETH sob controle de um custodiante
 /// @notice Um contrato de custódia simples para depósitos e saques de ETH
 
@@ -16,9 +18,9 @@ contract Custody {
         _;
     }
 
-    constructor() {
+    constructor(address _ledgerAddress) {
         owner = msg.sender;
-        ledger = AccountLedger(_ledger);
+        ledger = AccountLedger(_ledgerAddress);
     }
 
     /// @notice Recebe ETH e armazena no contrato

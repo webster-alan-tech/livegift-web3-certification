@@ -1,7 +1,7 @@
 // Módulo 1: Assinaturas digitais e Prova de Trabalho
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
-contract M1_ECDSA {
+library M1_ECDSA {
     function verifySignature(address signer, bytes32 messageHash, bytes memory signature) public pure returns (bool) {
         return recoverSigner(messageHash, signature) == signer;
     }

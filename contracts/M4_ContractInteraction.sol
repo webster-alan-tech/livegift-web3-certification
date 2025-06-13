@@ -1,5 +1,5 @@
 // Módulo 4: Interação com contratos inteligentes
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract M4_ContractInteraction {
     uint public value;

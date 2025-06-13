@@ -1,5 +1,5 @@
 // Módulo 6: ERC20 e NFT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 interface IERC20 {
     function transfer(address to, uint256 amount) external returns (bool);

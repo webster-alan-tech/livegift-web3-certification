@@ -1,0 +1,756 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/AccountLedger.sol": {
+      "lastModificationDate": 1749693592937,
+      "contentHash": "03ae93a1abd514198626d517e8e69627",
+      "sourceName": "contracts/AccountLedger.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "AccountLedger"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/Custody.sol": {
+      "lastModificationDate": 1749693586993,
+      "contentHash": "a7549768ee30a439dfaf59d17ff1a284",
+      "sourceName": "contracts/Custody.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccountLedger.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Custody"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/ECDSAVerifier.sol": {
+      "lastModificationDate": 1749654376356,
+      "contentHash": "76c6d61cebf06654a8a6e5e22f13cab5",
+      "sourceName": "contracts/ECDSAVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSAVerifier"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/EthereumGateway.sol": {
+      "lastModificationDate": 1749654376356,
+      "contentHash": "16c8010b241917943667a8d11197c0aa",
+      "sourceName": "contracts/EthereumGateway.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/GiftBadgeNFT.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "7ad892f651846cd6f33b6fff91faa07d",
+      "sourceName": "contracts/GiftBadgeNFT.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/GiftRegistry.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "48d2c73c7b4427a482f2c891f1ca054d",
+      "sourceName": "contracts/GiftRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/GiftUtilsLib.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "e38cfa32798dd5c72f2c90472b454fa1",
+      "sourceName": "contracts/GiftUtilsLib.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveGifts.sol": {
+      "lastModificationDate": 1749654376356,
+      "contentHash": "b7c81602574285be1033c6d7bc669dae",
+      "sourceName": "contracts/LiveGifts.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveGiftsProxy.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "7cfcbbe65e14379c6948124c49ce18c5",
+      "sourceName": "contracts/LiveGiftsProxy.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveGiftsV1.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "6511fcd954c8c892cebdd3f74de145c9",
+      "sourceName": "contracts/LiveGiftsV1.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveGiftsV2.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "e088b506939e024d270bb1b2f3a7da04",
+      "sourceName": "contracts/LiveGiftsV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveMultisigWallet.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "57fcf917bcdcaf0aef2f5f9729b52367",
+      "sourceName": "contracts/LiveMultisigWallet.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/LiveToken.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "a835f77fa314720874fc38214538c60c",
+      "sourceName": "contracts/LiveToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M1_ECDSA.sol": {
+      "lastModificationDate": 1749691273049,
+      "contentHash": "c420d959578dee6e54b900d14a531645",
+      "sourceName": "contracts/M1_ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "M1_ECDSA"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M2_UTXO_Account.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "9c3a0be4fcd1ea3105f8ab9911b07a12",
+      "sourceName": "contracts/M2_UTXO_Account.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "M2_UTXO_Account"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M3_BlockExplorer.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "d0a264712811e19deb8dd2e66a078a66",
+      "sourceName": "contracts/M3_BlockExplorer.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "M3_BlockExplorer"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M4_ContractInteraction.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "15d5b967674b994d4e666e4a7de4dcb8",
+      "sourceName": "contracts/M4_ContractInteraction.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "M4_ContractInteraction"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M5_Custody.sol": {
+      "lastModificationDate": 1749654376376,
+      "contentHash": "8e07923d9b8db6d6034415a2a81335e7",
+      "sourceName": "contracts/M5_Custody.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "M5_Custody"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M6_Tokens.sol": {
+      "lastModificationDate": 1749654376396,
+      "contentHash": "09d821d15aa49a502fd5db045cb5693f",
+      "sourceName": "contracts/M6_Tokens.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "M6_Tokens"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/M7_Proxies.sol": {
+      "lastModificationDate": 1749693552809,
+      "contentHash": "d5cbae220c8e9d02e5733fc9472077a0",
+      "sourceName": "contracts/M7_Proxies.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "M7_Proxies"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/ProofOfWork.sol": {
+      "lastModificationDate": 1749654376356,
+      "contentHash": "44d6a3b0053f1ddbad969deb8b53d069",
+      "sourceName": "contracts/ProofOfWork.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProofOfWork"
+      ]
+    },
+    "/home/red/Documents/projects/LiveGifts_Complete/contracts/UTXOLedger.sol": {
+      "lastModificationDate": 1749654376356,
+      "contentHash": "249816016f82e03ea045b9f50cf17cc8",
+      "sourceName": "contracts/UTXOLedger.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    }
+  }
+}
