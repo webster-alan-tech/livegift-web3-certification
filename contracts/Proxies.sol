@@ -1,7 +1,7 @@
-// Módulo 7: Proxies e Governança
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract M7_Proxies {
+contract Proxies {
     address public implementation;
     address public admin;
 

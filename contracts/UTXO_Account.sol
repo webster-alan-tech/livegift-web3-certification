@@ -1,7 +1,7 @@
-// Módulo 2: Modelo UTXO e Modelo de Conta
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract M2_UTXO_Account {
+contract UTXO_Account {
     struct UTXO {
         address owner;
         uint256 amount;

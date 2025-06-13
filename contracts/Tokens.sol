@@ -1,4 +1,4 @@
-// Módulo 6: ERC20 e NFT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 interface IERC20 {
@@ -6,7 +6,7 @@ interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
 }
 
-contract M6_Tokens {
+contract Tokens {
     mapping(address => uint256) public balances;
 
     function sendToken(address token, address to, uint256 amount) public {
